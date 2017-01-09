@@ -1,8 +1,18 @@
 = Debian Packaging for `bmake`
 
 This repository contains scripts for building and packaging a binary version
-of `bmake` compatible with http://os161.eecs.harvard.edu/[`OS/161`] that can
-be uploaded and distributed through a Launchpad PPA.
+of
+//
+http://www.crufty.net/help/sjg/bmake.html[`bmake`]
+//
+compatible with
+//
+http://os161.eecs.harvard.edu/[`OS/161`]
+//
+that can be uploaded and distributed through the
+//
+https://launchpad.net/~ops-class/+archive/ubuntu/os161-toolchain[`ops-class.org`
+Launchpad PPA].
 
 == Getting Started
 
