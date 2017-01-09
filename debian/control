@@ -1,10 +1,12 @@
 Source: bmake
 Section: utils
 Priority: optional
-Maintainer: Geoffrey Challen <geoffrey.challen@gmail.com>
+Maintainer: Scott Haseley <shaseley@buffalo.edu>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.7
 Homepage: http://www.eecs.harvard.edu/~dholland/os161/download/
+Vcs-Browser: https://github.com/ops-class/bmake
+Vcs-Git: git://github.com/ops-class/bmake.git
 
 Package: bmake
 Architecture: i386 amd64

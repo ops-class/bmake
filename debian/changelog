@@ -1,11 +1,5 @@
-bmake (20101215.1~xenial) xenial; urgency=medium
+bmake (20101215~xenial0) xenial; urgency=medium
 
-  * Packaging for xenial.
+  * Rebooting change log and changing version number convention.
 
  -- Geoffrey Challen <geoffrey.challen@gmail.com>  Mon, 09 Jan 2017 10:16:43 -0500
-
-bmake (20101215-0ubuntu1) precise; urgency=low
-
-  * Initial release
-
- -- Geoffrey Challen <geoffrey.challen@gmail.com>  Thu, 15 Jan 2015 17:50:22 -0500

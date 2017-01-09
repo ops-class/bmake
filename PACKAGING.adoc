@@ -36,10 +36,10 @@ However, you do not need to bump the version number while testing local
 builds.
 
 Here is the versioning convention that we have established for `bmake`:
-`20101215.1~xenial`, the first (`.1`) package for Xenial based on `bmake`
-snapshot `20101215`.
+`20101215~xenial0`, the first package for Xenial based on `bmake` snapshot
+`20101215`.
 //
-Bump the minor minor version number as needed to account for library changes,
+Bump the post-Xenial version number as needed to account for library changes,
 multiple distributions, build debugging, or any other reason.
 
 === Commiting Everything
