@@ -1,0 +1,13 @@
+Source: bmake
+Section: utils
+Priority: optional
+Maintainer: Geoffrey Challen <geoffrey.challen@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://www.eecs.harvard.edu/~dholland/os161/download/
+
+Package: bmake
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: OS/161 bmake
+ bmake for building OS/161 on precise systems that don't already have it.

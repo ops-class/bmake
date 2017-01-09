@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+override_dh_auto_configure:
+	./configure --prefix=/usr --with-default-sys-path=/usr/share/mk
+
+override_dh_auto_build:
+	sh ./make-bootstrap.sh
+
+override_dh_auto_install:
+	mkdir -p $(CURDIR)/debian/bmake/usr/bin
+	mkdir -p $(CURDIR)/debian/bmake/usr/share/man/man1
+	mkdir -p $(CURDIR)/debian/bmake/usr/share/mk
+	cp bmake $(CURDIR)/debian/bmake/usr/bin/
+	cp bmake.1 $(CURDIR)/debian/bmake/usr/share/man/man1
+	sh mk/install-mk $(CURDIR)/debian/bmake/usr/share/mk
+
+override_dh_auto_test:
+
+%:
+	dh $@
+
+# set: ts=2:sw=2:noet
