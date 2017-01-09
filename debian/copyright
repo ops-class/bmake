@@ -1,10 +1,12 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: sys161
-Source: http://www.eecs.harvard.edu/~dholland/os161/
+Source: http://os161.eecs.harvard.edu/download/
 
 Files: *
 Copyright: 2000, 2001, 2002, 2009, 2010, 2013, David Holland <dholland@eecs.harvard.edu>
-License:
+License: Harvard
+
+License: Harvard
  /*
   * Copyright (c) 2000, 2001, 2002, 2009, 2010, 2013
   *	The President and Fellows of Harvard College.
