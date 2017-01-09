@@ -1,0 +1,12 @@
+/Makefile
+/make-bootstrap.sh
+/packages
+/unit-tests
+/bmake
+/getopt
+/config.h
+/config.log
+/config.status
+*.swp
+*.swo
+*.o

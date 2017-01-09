@@ -1,0 +1,5 @@
+/bmake
+/tmp
+*.log
+*.substvars
+debhelper-build-stamp

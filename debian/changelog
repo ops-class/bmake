@@ -1,3 +1,9 @@
+bmake (20101215.1~xenial) xenial; urgency=medium
+
+  * Packaging for xenial.
+
+ -- Geoffrey Challen <geoffrey.challen@gmail.com>  Mon, 09 Jan 2017 10:16:43 -0500
+
 bmake (20101215-0ubuntu1) precise; urgency=low
 
   * Initial release
