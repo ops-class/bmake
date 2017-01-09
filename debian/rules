@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+# export DH_VERBOSE=1
 
 override_dh_auto_configure:
 	./configure --prefix=/usr --with-default-sys-path=/usr/share/mk
